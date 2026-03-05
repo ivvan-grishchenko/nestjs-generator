@@ -206,23 +206,6 @@ export const TEMPLATES: Record<string, TemplateConfig> = {
 
 After adding a template, rebuild and run the CLI to see it in the list.
 
-### Project structure (high level)
-
-```
-src/
-  app.module.ts              # Root Nest module
-  main.ts                    # CLI entry (nest-commander bootstrap)
-  generate-command/
-    command/
-      generate.command.ts    # generate / gen command implementation
-    question-set/
-      choose-template.question-set.ts  # Interactive template choice
-    generate.constant.ts     # TEMPLATES config
-    generate.enum.ts        # Enums for DI and question set names
-    generate.type.ts        # TemplateConfig, TemplateId
-    generate.module.ts      # Module wiring (command, inquirer, simple-git)
-```
-
 ### Code quality
 
 - **ESLint** — Linting (including lint-staged on commit).
