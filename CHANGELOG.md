@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ivvan-grishchenko/nestjs-generator/compare/nest-generator-v1.1.0...nest-generator-v1.1.1) (2026-03-06)
+
+
+### Bug Fixes
+
+* **scripts:** rename lifecycle hook not to be triggered ([#4](https://github.com/ivvan-grishchenko/nestjs-generator/issues/4)) ([1491597](https://github.com/ivvan-grishchenko/nestjs-generator/commit/1491597a8b52d8efa141640c64c06a869a97ca9b))
+
 ## [1.1.0](https://github.com/ivvan-grishchenko/nestjs-generator/compare/nest-generator-v1.0.0...nest-generator-v1.1.0) (2026-03-05)
 
 
