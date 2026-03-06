@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/ivvan-grishchenko/nestjs-generator/compare/nest-generator-v1.1.1...nest-generator-v1.1.2) (2026-03-06)
+
+
+### Bug Fixes
+
+* **commitlint:** require scope for commits ([#7](https://github.com/ivvan-grishchenko/nestjs-generator/issues/7)) ([9714285](https://github.com/ivvan-grishchenko/nestjs-generator/commit/9714285da8f28741d7e5edae4be6ac2705d69233))
+
 ## [1.1.1](https://github.com/ivvan-grishchenko/nestjs-generator/compare/nest-generator-v1.1.0...nest-generator-v1.1.1) (2026-03-06)
 
 
