@@ -221,9 +221,10 @@ Commits should follow the configured conventional format so the commit-msg hook 
 
 1. Open an issue or pick an existing one.
 2. Fork the repo, create a branch, make your changes.
-3. Run `npm run lint`, `npm run test`, and `npm run test:e2e`.
-4. Commit using conventional commits (Commitlint is enforced).
-5. Push and open a pull request.
+3. After installing dependencies, run `npm run post-install` once to apply local-only test patches.
+4. Run `npm run lint`, `npm run test`, and `npm run test:e2e`.
+5. Commit using conventional commits (Commitlint is enforced).
+6. Push and open a pull request.
 
 Bug reports and feature ideas are welcome via [GitHub Issues](https://github.com/ivvan-grishchenko/nestjs-generator/issues).
 
